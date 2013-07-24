@@ -1,8 +1,21 @@
 SampleApp::Application.routes.draw do
+<<<<<<< HEAD
    root  'static_pages#home'
   match '/help' => 'static_pages#help',    :via => 'get'
   match '/about' => 'static_pages#about',   :via => 'get'
   match '/contact' => 'static_pages#contact', :via => 'get'
+=======
+<<<<<<< HEAD
+=======
+  get "static_pages/home"
+
+  get "static_pages/help"
+  
+  get "static_pages/about"
+
+  get "static_pages/contact"
+>>>>>>> d55168a01cd4b4972411c949d7c61b7b174c003e
+>>>>>>> 9c1ee4162bbcef5ce429d77b672d18309f59be2f
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
