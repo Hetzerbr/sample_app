@@ -1,8 +1,9 @@
 SampleApp::Application.routes.draw do
-   root  'static_pages#home'
-  match '/help' => 'static_pages#help',    :via => 'get'
-  match '/about' => 'static_pages#about',   :via => 'get'
-  match '/contact' => 'static_pages#contact', :via => 'get'
+  
+  match '/static_pages/home', :to => 'static_pages#home'
+  match '/help' => 'static_pages#help',    :via => 'get' 
+  match '/about' => 'static_pages#about',   :via => 'get' 
+  match '/contact' => 'static_pages#contact', :via => 'get' 
 
   get "static_pages/home"
 
