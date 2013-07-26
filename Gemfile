@@ -33,6 +33,7 @@ group :assets do
   gem 'guard-spork', '0.3.2'  
   gem 'spork', '0.9.0'
   gem 'launchy', '2.1.0'
+  gem 'childprocess', '0.3.6'
 end
 
 group :production do
