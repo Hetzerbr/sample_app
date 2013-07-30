@@ -34,6 +34,7 @@ group :assets do
   gem 'spork', '0.9.0'
   gem 'launchy', '2.1.0'
   gem 'childprocess', '0.3.6'
+  gem 'webrat', '0.7.1'
 end
 
 group :production do
